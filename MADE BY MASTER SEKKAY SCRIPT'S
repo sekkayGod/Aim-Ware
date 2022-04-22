@@ -1,0 +1,620 @@
+local ScreenGui = Instance.new("ScreenGui")
+local MainBar = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local Page = Instance.new("ScrollingFrame")
+local PageName = Instance.new("TextLabel")
+local About = Instance.new("TextLabel")
+local ColorBar = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local CheckBox = Instance.new("ImageButton")
+local Unchecked = Instance.new("ImageButton")
+local Text = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local RegisterClick = Instance.new("TextButton")
+local About_2 = Instance.new("TextLabel")
+local Slider = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local PageName_2 = Instance.new("TextLabel")
+local About_3 = Instance.new("TextLabel")
+local Page_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Page_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Page_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Page2 = Instance.new("ScrollingFrame")
+local PageName_3 = Instance.new("TextLabel")
+local About_4 = Instance.new("TextLabel")
+local ColorBar_2 = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local CheckBox_2 = Instance.new("ImageButton")
+local Unchecked_2 = Instance.new("ImageButton")
+local Text_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local RegisterClick_2 = Instance.new("TextButton")
+local About_5 = Instance.new("TextLabel")
+local Slider_2 = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local PageName_4 = Instance.new("TextLabel")
+local About_6 = Instance.new("TextLabel")
+local Page_5 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local ImageButton = Instance.new("ImageButton")
+local TextButton_3 = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+
+MainBar.Name = "MainBar"
+MainBar.Parent = ScreenGui
+MainBar.BackgroundColor3 = Color3.fromRGB(159, 29, 29)
+MainBar.BorderSizePixel = 0
+MainBar.Position = UDim2.new(0.0666666627, 0, 0.097065486, 0)
+MainBar.Size = UDim2.new(0, 636, 0, 49)
+MainBar.Active = true
+MainBar.Draggable = true
+
+ImageLabel.Parent = MainBar
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 50, 0, 49)
+ImageLabel.Image = "rbxassetid://9430302752"
+
+Page.Name = "Page"
+Page.Parent = MainBar
+Page.Active = true
+Page.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Page.BackgroundTransparency = 0.300
+Page.BorderSizePixel = 0
+Page.Position = UDim2.new(0, 0, 0.999999821, 0)
+Page.Size = UDim2.new(0, 636, 0, 325)
+Page.ScrollBarThickness = 0
+Page.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+PageName.Name = "PageName"
+PageName.Parent = Page
+PageName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageName.BackgroundTransparency = 1.000
+PageName.BorderSizePixel = 0
+PageName.Position = UDim2.new(0.0108845066, 0, 0, 0)
+PageName.Size = UDim2.new(0, 141, 0, 13)
+PageName.Font = Enum.Font.SourceSansBold
+PageName.Text = "Hello!"
+PageName.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageName.TextSize = 14.000
+PageName.TextXAlignment = Enum.TextXAlignment.Left
+
+About.Name = "About"
+About.Parent = PageName
+About.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+About.BackgroundTransparency = 1.000
+About.BorderSizePixel = 0
+About.Position = UDim2.new(0, 0, 1.09846139, 0)
+About.Size = UDim2.new(0, 217, 0, 13)
+About.Font = Enum.Font.SourceSansBold
+About.Text = "Hi!"
+About.TextColor3 = Color3.fromRGB(179, 179, 179)
+About.TextSize = 12.000
+About.TextXAlignment = Enum.TextXAlignment.Left
+
+ColorBar.Name = "ColorBar"
+ColorBar.Parent = Page
+ColorBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ColorBar.BorderSizePixel = 0
+ColorBar.Position = UDim2.new(0.0108845066, 0, 0.0399999991, 0)
+ColorBar.Size = UDim2.new(0, 226, 0, 2)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(86, 86, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(57, 57, 57))}
+UIGradient.Parent = ColorBar
+
+CheckBox.Name = "CheckBox"
+CheckBox.Parent = Page
+CheckBox.BackgroundTransparency = 1.000
+CheckBox.LayoutOrder = 1
+CheckBox.Position = UDim2.new(0.00969998538, 0, 0.127858028, 0)
+CheckBox.Size = UDim2.new(0, 25, 0, 25)
+CheckBox.ZIndex = 999999999
+CheckBox.Image = "rbxassetid://3926311105"
+CheckBox.ImageColor3 = Color3.fromRGB(150, 150, 150)
+CheckBox.ImageRectOffset = Vector2.new(4, 836)
+CheckBox.ImageRectSize = Vector2.new(48, 48)
+
+Unchecked.Name = "Unchecked"
+Unchecked.Parent = CheckBox
+Unchecked.BackgroundTransparency = 1.000
+Unchecked.LayoutOrder = 7
+Unchecked.Position = UDim2.new(-0.159999996, 0, -0.159999996, 0)
+Unchecked.Size = UDim2.new(0, 32, 0, 32)
+Unchecked.ZIndex = 3
+Unchecked.Modal = true
+Unchecked.Image = "rbxassetid://3926305904"
+Unchecked.ImageColor3 = Color3.fromRGB(150, 150, 150)
+Unchecked.ImageRectOffset = Vector2.new(124, 724)
+Unchecked.ImageRectSize = Vector2.new(36, 36)
+
+Text.Name = "Text"
+Text.Parent = CheckBox
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.Position = UDim2.new(0.96999979, 0, 0.199999928, 0)
+Text.Size = UDim2.new(0, 87, 0, 14)
+Text.ZIndex = 3
+Text.Font = Enum.Font.GothamSemibold
+Text.Text = "CheckBox"
+Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextSize = 12.000
+Text.TextWrapped = true
+Text.TextXAlignment = Enum.TextXAlignment.Left
+Text.TextYAlignment = Enum.TextYAlignment.Bottom
+
+UICorner.CornerRadius = UDim.new(0, 2)
+UICorner.Parent = Text
+
+RegisterClick.Name = "RegisterClick"
+RegisterClick.Parent = CheckBox
+RegisterClick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RegisterClick.BackgroundTransparency = 1.000
+RegisterClick.Size = UDim2.new(0, 24, 0, 23)
+RegisterClick.ZIndex = 999999999
+RegisterClick.Font = Enum.Font.SourceSans
+RegisterClick.Text = ""
+RegisterClick.TextColor3 = Color3.fromRGB(0, 0, 0)
+RegisterClick.TextSize = 14.000
+
+About_2.Name = "About"
+About_2.Parent = CheckBox
+About_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+About_2.BackgroundTransparency = 1.000
+About_2.BorderSizePixel = 0
+About_2.Position = UDim2.new(-0.0299999714, 0, 0.999034405, 0)
+About_2.Size = UDim2.new(0, 175, 0, 11)
+About_2.Font = Enum.Font.SourceSansBold
+About_2.Text = "  About"
+About_2.TextColor3 = Color3.fromRGB(179, 179, 179)
+About_2.TextSize = 12.000
+About_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Slider.Name = "Slider"
+Slider.Parent = Page
+Slider.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+Slider.BackgroundTransparency = 0.100
+Slider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slider.BorderSizePixel = 0
+Slider.Position = UDim2.new(0.010884501, 0, 0.366196662, 0)
+Slider.Size = UDim2.new(0, 312, 0, 8)
+
+TextButton.Parent = Slider
+TextButton.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 2
+TextButton.Position = UDim2.new(0.0256410204, 0, 0.5, 0)
+TextButton.Size = UDim2.new(0, 17, 0, 16)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_2.Parent = TextButton
+
+UICorner_3.Parent = Slider
+
+PageName_2.Name = "PageName"
+PageName_2.Parent = Slider
+PageName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageName_2.BackgroundTransparency = 1.000
+PageName_2.BorderSizePixel = 0
+PageName_2.Position = UDim2.new(-0.00181422383, 0, -3.7284615, 0)
+PageName_2.Size = UDim2.new(0, 142, 0, 13)
+PageName_2.Font = Enum.Font.SourceSansBold
+PageName_2.Text = "Slider"
+PageName_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageName_2.TextSize = 14.000
+PageName_2.TextXAlignment = Enum.TextXAlignment.Left
+
+About_3.Name = "About"
+About_3.Parent = PageName_2
+About_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+About_3.BackgroundTransparency = 1.000
+About_3.BorderSizePixel = 0
+About_3.Position = UDim2.new(0, 0, 1.09846139, 0)
+About_3.Size = UDim2.new(0, 218, 0, 13)
+About_3.Font = Enum.Font.SourceSansBold
+About_3.Text = "About"
+About_3.TextColor3 = Color3.fromRGB(179, 179, 179)
+About_3.TextSize = 12.000
+About_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Page_2.Name = "Page"
+Page_2.Parent = Page
+Page_2.BackgroundColor3 = Color3.fromRGB(157, 157, 157)
+Page_2.BorderSizePixel = 0
+Page_2.Position = UDim2.new(0.0094339624, 0, 0.421726823, 0)
+Page_2.Size = UDim2.new(0, 111, 0, 27)
+Page_2.Font = Enum.Font.SourceSansBold
+Page_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page_2.TextSize = 16.000
+
+UICorner_4.CornerRadius = UDim.new(0, 6)
+UICorner_4.Parent = Page_2
+
+Page_3.Name = "Page"
+Page_3.Parent = MainBar
+Page_3.BackgroundColor3 = Color3.fromRGB(163, 50, 50)
+Page_3.BorderSizePixel = 0
+Page_3.Position = UDim2.new(0.295597494, 0, 0.163265303, 0)
+Page_3.Size = UDim2.new(0, 102, 0, 33)
+Page_3.Font = Enum.Font.SourceSansBold
+Page_3.Text = "Page 1"
+Page_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page_3.TextSize = 16.000
+
+UICorner_5.CornerRadius = UDim.new(0, 6)
+UICorner_5.Parent = Page_3
+
+TextLabel.Parent = MainBar
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.103773586, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 97, 0, 30)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Aim Ware"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 35.000
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-1.62026317e-05, 0, 0.866666675, 0)
+TextLabel_2.Size = UDim2.new(0, 97, 0, 15)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "ONE STEP BEHIND THE GAME"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 11.000
+
+Page_4.Name = "Page"
+Page_4.Parent = MainBar
+Page_4.BackgroundColor3 = Color3.fromRGB(163, 50, 50)
+Page_4.BorderSizePixel = 0
+Page_4.Position = UDim2.new(0.465408802, 0, 0.163265303, 0)
+Page_4.Size = UDim2.new(0, 102, 0, 33)
+Page_4.Font = Enum.Font.SourceSansBold
+Page_4.Text = "Page 2"
+Page_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page_4.TextSize = 16.000
+
+UICorner_6.CornerRadius = UDim.new(0, 6)
+UICorner_6.Parent = Page_4
+
+Page2.Name = "Page2"
+Page2.Parent = MainBar
+Page2.Active = true
+Page2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Page2.BackgroundTransparency = 0.300
+Page2.BorderSizePixel = 0
+Page2.Position = UDim2.new(0, 0, 0.999999821, 0)
+Page2.Size = UDim2.new(0, 636, 0, 325)
+Page2.Visible = false
+Page2.ScrollBarThickness = 0
+Page2.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+PageName_3.Name = "PageName"
+PageName_3.Parent = Page2
+PageName_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageName_3.BackgroundTransparency = 1.000
+PageName_3.BorderSizePixel = 0
+PageName_3.Position = UDim2.new(0.0108845066, 0, 0, 0)
+PageName_3.Size = UDim2.new(0, 141, 0, 13)
+PageName_3.Font = Enum.Font.SourceSansBold
+PageName_3.Text = "Hello!"
+PageName_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageName_3.TextSize = 14.000
+PageName_3.TextXAlignment = Enum.TextXAlignment.Left
+
+About_4.Name = "About"
+About_4.Parent = PageName_3
+About_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+About_4.BackgroundTransparency = 1.000
+About_4.BorderSizePixel = 0
+About_4.Position = UDim2.new(0, 0, 1.09846139, 0)
+About_4.Size = UDim2.new(0, 217, 0, 13)
+About_4.Font = Enum.Font.SourceSansBold
+About_4.Text = "Hi!"
+About_4.TextColor3 = Color3.fromRGB(179, 179, 179)
+About_4.TextSize = 12.000
+About_4.TextXAlignment = Enum.TextXAlignment.Left
+
+ColorBar_2.Name = "ColorBar"
+ColorBar_2.Parent = Page2
+ColorBar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ColorBar_2.BorderSizePixel = 0
+ColorBar_2.Position = UDim2.new(0.0108845066, 0, 0.0399999991, 0)
+ColorBar_2.Size = UDim2.new(0, 226, 0, 2)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(86, 86, 86)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(57, 57, 57))}
+UIGradient_2.Parent = ColorBar_2
+
+CheckBox_2.Name = "CheckBox"
+CheckBox_2.Parent = Page2
+CheckBox_2.BackgroundTransparency = 1.000
+CheckBox_2.LayoutOrder = 1
+CheckBox_2.Position = UDim2.new(0.00969998538, 0, 0.127858028, 0)
+CheckBox_2.Size = UDim2.new(0, 25, 0, 25)
+CheckBox_2.ZIndex = 999999999
+CheckBox_2.Image = "rbxassetid://3926311105"
+CheckBox_2.ImageColor3 = Color3.fromRGB(150, 150, 150)
+CheckBox_2.ImageRectOffset = Vector2.new(4, 836)
+CheckBox_2.ImageRectSize = Vector2.new(48, 48)
+
+Unchecked_2.Name = "Unchecked"
+Unchecked_2.Parent = CheckBox_2
+Unchecked_2.BackgroundTransparency = 1.000
+Unchecked_2.LayoutOrder = 7
+Unchecked_2.Position = UDim2.new(-0.159999996, 0, -0.159999996, 0)
+Unchecked_2.Size = UDim2.new(0, 32, 0, 32)
+Unchecked_2.ZIndex = 3
+Unchecked_2.Modal = true
+Unchecked_2.Image = "rbxassetid://3926305904"
+Unchecked_2.ImageColor3 = Color3.fromRGB(150, 150, 150)
+Unchecked_2.ImageRectOffset = Vector2.new(124, 724)
+Unchecked_2.ImageRectSize = Vector2.new(36, 36)
+
+Text_2.Name = "Text"
+Text_2.Parent = CheckBox_2
+Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.BackgroundTransparency = 1.000
+Text_2.Position = UDim2.new(0.96999979, 0, 0.199999928, 0)
+Text_2.Size = UDim2.new(0, 87, 0, 14)
+Text_2.ZIndex = 3
+Text_2.Font = Enum.Font.GothamSemibold
+Text_2.Text = "CheckBox"
+Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.TextSize = 12.000
+Text_2.TextWrapped = true
+Text_2.TextXAlignment = Enum.TextXAlignment.Left
+Text_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+UICorner_7.CornerRadius = UDim.new(0, 2)
+UICorner_7.Parent = Text_2
+
+RegisterClick_2.Name = "RegisterClick"
+RegisterClick_2.Parent = CheckBox_2
+RegisterClick_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RegisterClick_2.BackgroundTransparency = 1.000
+RegisterClick_2.Size = UDim2.new(0, 24, 0, 23)
+RegisterClick_2.ZIndex = 999999999
+RegisterClick_2.Font = Enum.Font.SourceSans
+RegisterClick_2.Text = ""
+RegisterClick_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+RegisterClick_2.TextSize = 14.000
+
+About_5.Name = "About"
+About_5.Parent = CheckBox_2
+About_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+About_5.BackgroundTransparency = 1.000
+About_5.BorderSizePixel = 0
+About_5.Position = UDim2.new(-0.0299999714, 0, 0.999034405, 0)
+About_5.Size = UDim2.new(0, 175, 0, 11)
+About_5.Font = Enum.Font.SourceSansBold
+About_5.Text = "  About"
+About_5.TextColor3 = Color3.fromRGB(179, 179, 179)
+About_5.TextSize = 12.000
+About_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Slider_2.Name = "Slider"
+Slider_2.Parent = Page2
+Slider_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+Slider_2.BackgroundTransparency = 0.100
+Slider_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Slider_2.BorderSizePixel = 0
+Slider_2.Position = UDim2.new(0.010884501, 0, 0.366196662, 0)
+Slider_2.Size = UDim2.new(0, 312, 0, 8)
+
+TextButton_2.Parent = Slider_2
+TextButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 2
+TextButton_2.Position = UDim2.new(0.0256410204, 0, 0.5, 0)
+TextButton_2.Size = UDim2.new(0, 17, 0, 16)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_8.Parent = TextButton_2
+
+UICorner_9.Parent = Slider_2
+
+PageName_4.Name = "PageName"
+PageName_4.Parent = Slider_2
+PageName_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageName_4.BackgroundTransparency = 1.000
+PageName_4.BorderSizePixel = 0
+PageName_4.Position = UDim2.new(-0.00181422383, 0, -3.7284615, 0)
+PageName_4.Size = UDim2.new(0, 142, 0, 13)
+PageName_4.Font = Enum.Font.SourceSansBold
+PageName_4.Text = "Slider"
+PageName_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageName_4.TextSize = 14.000
+PageName_4.TextXAlignment = Enum.TextXAlignment.Left
+
+About_6.Name = "About"
+About_6.Parent = PageName_4
+About_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+About_6.BackgroundTransparency = 1.000
+About_6.BorderSizePixel = 0
+About_6.Position = UDim2.new(0, 0, 1.09846139, 0)
+About_6.Size = UDim2.new(0, 218, 0, 13)
+About_6.Font = Enum.Font.SourceSansBold
+About_6.Text = "About"
+About_6.TextColor3 = Color3.fromRGB(179, 179, 179)
+About_6.TextSize = 12.000
+About_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Page_5.Name = "Page"
+Page_5.Parent = Page2
+Page_5.BackgroundColor3 = Color3.fromRGB(157, 157, 157)
+Page_5.BorderSizePixel = 0
+Page_5.Position = UDim2.new(0.0094339624, 0, 0.421726823, 0)
+Page_5.Size = UDim2.new(0, 111, 0, 27)
+Page_5.Font = Enum.Font.SourceSansBold
+Page_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page_5.TextSize = 16.000
+
+UICorner_10.CornerRadius = UDim.new(0, 6)
+UICorner_10.Parent = Page_5
+
+ImageButton.Parent = MainBar
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.Position = UDim2.new(0.943610609, 0, 0.265306115, 0)
+ImageButton.Size = UDim2.new(0, 26, 0, 28)
+
+TextButton_3.Parent = ImageButton
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.307692349, 0, -0.392857134, 0)
+TextButton_3.Size = UDim2.new(0, 27, 0, 28)
+TextButton_3.Font = Enum.Font.SourceSansBold
+TextButton_3.Text = "X"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 26.000
+
+-- Scripts:
+
+local function RBMG_fake_script() -- RegisterClick.LocalScript 
+	local script = Instance.new('LocalScript', RegisterClick)
+
+	local checked = false
+	local a = script.Parent.Parent.Unchecked
+	local b = script.Parent
+	
+	Tween = function(Obj, Time, Settings)	
+		game:GetService("TweenService"):Create(Obj, TweenInfo.new(Time), Settings):Play()
+	end
+	
+	b.MouseButton1Click:Connect(function()
+		if checked == false then
+			checked = true
+			Tween(a, 0.2, {ImageTransparency = 1})
+		elseif checked == true then
+			checked = false
+			Tween(a, 0.2, {ImageTransparency = 0})
+		end
+	end)
+end
+coroutine.wrap(RBMG_fake_script)()
+local function TRWA_fake_script() -- Slider.LocalScript 
+	local script = Instance.new('LocalScript', Slider)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			local Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Precent*100
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+end
+coroutine.wrap(TRWA_fake_script)()
+local function EXHP_fake_script() -- Page_3.LocalScript 
+	local script = Instance.new('LocalScript', Page_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Page.Visible = true
+	end)
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Page2.Visible = false
+	end)
+end
+coroutine.wrap(EXHP_fake_script)()
+local function VKFVEJG_fake_script() -- Page_4.LocalScript 
+	local script = Instance.new('LocalScript', Page_4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Page.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Page2.Visible = true
+	end)
+end
+coroutine.wrap(VKFVEJG_fake_script)()
+local function ERCVA_fake_script() -- RegisterClick_2.LocalScript 
+	local script = Instance.new('LocalScript', RegisterClick_2)
+
+	local checked = false
+	local a = script.Parent.Parent.Unchecked
+	local b = script.Parent
+	
+	Tween = function(Obj, Time, Settings)	
+		game:GetService("TweenService"):Create(Obj, TweenInfo.new(Time), Settings):Play()
+	end
+	
+	b.MouseButton1Click:Connect(function()
+		if checked == false then
+			checked = true
+			Tween(a, 0.2, {ImageTransparency = 1})
+		elseif checked == true then
+			checked = false
+			Tween(a, 0.2, {ImageTransparency = 0})
+		end
+	end)
+end
+coroutine.wrap(ERCVA_fake_script)()
+local function RNEPVT_fake_script() -- Slider_2.LocalScript 
+	local script = Instance.new('LocalScript', Slider_2)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Dragging = false
+	script.Parent.TextButton.MouseButton1Down:Connect(function()
+		Dragging = true
+	end)
+	
+	UserInputService.InputChanged:Connect(function()
+		if Dragging then
+			local MousePos = UserInputService:GetMouseLocation()+Vector2.new(0,36)
+			local RelPos = MousePos-script.Parent.AbsolutePosition
+			local Precent = math.clamp(RelPos.X/script.Parent.AbsoluteSize.X,0,1)
+			script.Parent.TextButton.Position = UDim2.new(Precent,0,0.5,0)
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Precent*100
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			Dragging = false
+		end
+	end)
+end
+coroutine.wrap(RNEPVT_fake_script)()
+local function KJYQ_fake_script() -- ImageButton.Script 
+	local script = Instance.new('Script', ImageButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainBar:Destroy()(true)
+	end)
+end
+coroutine.wrap(KJYQ_fake_script)()
